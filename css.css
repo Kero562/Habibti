@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+   
+    font-family: 'Lato', 'Arial';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image: linear-gradient(27deg, rgba(231,236,25,0.70) 9%, rgba(0,0,0,0.70) 23%, rgba(19,3,3,0.70) 77%, rgba(17,10,239,0.70) 93%), url("image0.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .50 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .50 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .50 );
+  }
+  100%
+  {
+    transform: scale( .50 );
+  }
+}
+
+.heart {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    stroke: red;
+    fill:rgba(161, 9, 34);
+    transform: translate(-50%, -50%);
+    left: 48%;
+    top: 65%
+}
+
+span svg {
+    animation: heartbeat 1s infinite;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #message p, a {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    font-family: Courier, monospace;
+    margin: 0.8em 0;
+    font-size: 18px;
+    color: #B95;
+  }
+  
+  .ghost,
+  .glitch {
+    opacity: 0.25;
+  }
+  
+  #message {
+    margin-left: -300px;
+    margin-top: -130px;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    left: 50%;
+    top: 40%;
+  }
+  
+  #animate {
+    text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+    position: absolute;
+    color: #4f4228;
+    bottom: 0;
+  }
+  
+  #container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  #container:before {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+  }
+
+/* section {
+    background-color: rgba(216, 112, 147, 0.600);
+} */
+
+/* h2 {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    font-size: 180%;
+    color: rgb(90, 88, 88);
+    font-weight: 400;
+    font-family: 'Lato', 'Arial';
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+} */
+
+/* h2:after {
+    
+    display: block;
+    height: 3px;
+    width: 200px;
+    content: " ";
+    background-color: rgb(14, 117, 100);
+    margin: 0 auto;
+    margin-top: 30px;
+} */
