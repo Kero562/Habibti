@@ -14,7 +14,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(27deg, rgba(29, 112, 35, 0.70) 5%, rgba(0,0,0,0.70) 27%, rgba(0,0,0,0.70) 77%, rgba(250,34,56,0.70) 95%), url("image0.jpg");
+    background-image: (27deg, rgba(231,236,25,0.70) 9%, rgba(0,0,0,0.70) 23%, rgba(19,3,3,0.70) 77%, rgba(17,10,239,0.70) 93%), url("image0.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
